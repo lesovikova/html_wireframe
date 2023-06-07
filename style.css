@@ -29,6 +29,15 @@ h3 {
     color: #723c51;
 }
 
+body {
+    padding: 0 10px;
+}
+
+.body-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 .header {
@@ -66,7 +75,6 @@ h3 {
 
 .section-wrapper {
     width: 50%;
-    margin-left: 10px;
 }
 
 .section__heading {
