@@ -29,7 +29,9 @@ h3 {
     color: #723c51;
 }
 
-header {
+/* HEADER */
+
+.header {
     width: 100%;
     display: flex;
     margin-top: 10px;
@@ -56,6 +58,8 @@ header {
     font-size: 1.3rem;
 }
 
+/* MAIN SECTION */
+
 .section {
     border-bottom: 1px #989898 solid;
 }
@@ -81,7 +85,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
+
+/* ASIDE */
+
 .aside {
     width: 30%;
     align-self: center;
@@ -109,3 +117,34 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 60px 30px 20px;
+}
+
+.footer__logo {
+    width: 100px;
+}
+
+.footer__navigation {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list-item {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #723c51;
+}
+
+.footer__link {
+    color: #723c51;
+}
+
