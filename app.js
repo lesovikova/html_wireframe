@@ -18,7 +18,7 @@ function compareName(){
 if(userName === "Admin") {
     heading.textContent = "Hello Admin"; 
 } else {
-    heading.textContent = "You don't have the rights to access the page";
+    heading.textContent = `${userName}, you don't have the rights to access the page`;
 }
 }
 
