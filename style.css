@@ -156,3 +156,17 @@ main {
     color: #723c51;
 }
 
+/* BUTTON */
+
+.button {
+    width: 100%;
+}
+
+.button__item {
+    padding: 10px 20px;
+    background-color: #a86f7d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
