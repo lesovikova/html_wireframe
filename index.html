@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="body-wrapper">
+    <div class="wrapper">
     <header class="header">
       <img src="img/logo.png" alt="Logo" class="header__logo"/>
       <nav class="header__navigation">
         <ul class="header__menu">
-          <li><a href="" class="header__menu-link">Link 1</a></li>
-          <li><a href="" class="header__menu-link">Link 2</a></li>
-          <li><a href="" class="header__menu-link">Link 3</a></li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Home</a></li>
+          <li class="header__menu-item"><a href="#sections" class="header__menu-link">Sections</a></li>
+          <li class="header__menu-item"><a href="#aside" class="header__menu-link">Aside</a></li>
         </ul>
       </nav>
     </header>
@@ -25,9 +25,9 @@
       <div class="button">
         <button class="button__item">Click to change colors to random</button>
       </div>
-      <div class="section-wrapper">
+      <div id="sections">
       <section class="section">
-        <h2 class="section__heading">Heading</h2>
+        <h2 class="section__heading">Heading to section</h2>
         <img src="img/Freestocks.webp" alt="" class="section__picture"/>
         <p class="section__text">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, neque
@@ -37,7 +37,7 @@
         </p>
       </section>
       <section class="section">
-        <h2 class="section__heading">Heading</h2>
+        <h2 class="section__heading">Heading to section</h2>
         <img src="img/vintage-color-filter-cosmos-flower-field_1421-1334.avif" alt=""  class="section__picture"/>
         <p class="section__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at vitae
@@ -47,9 +47,9 @@
         </p>
       </section>
       </div>
-      <aside class="aside">
+      <aside class="aside" id="aside">
         <article class="aside__article">
-          <h3 class="aside__heading">Heading</h3>
+          <h3 class="aside__heading">Heading for articles</h3>
           <img src="img/free-stock-photos-12.jpeg" alt="" />
           <p class="aside__text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
@@ -59,7 +59,7 @@
           </p>
         </article>
         <article class="aside__article">
-          <h3 class="aside__heading">Heading</h3>
+          <h3 class="aside__heading">Heading for articles</h3>
           <p class="aside__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             esse officia nam accusamus nesciunt, sequi obcaecati, quaerat
@@ -85,12 +85,12 @@
       <img src="img/logo.png" alt="Logo" class="footer__logo" />
       <ul class="footer__navigation">
         <li class="footer__list-item">Adress</li>
-        <li class="footer__list-item"><a href="" class="footer__link">Link 1</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">Link 2</a></li>
-        <li class="footer__list-item"><a href="" class="footer__link">Link 3</a></li>
+        <li class="footer__list-item"><a href="/" class="footer__link">Home</a></li>
+        <li class="footer__list-item"><a href="#sections" class="footer__link">Sections</a></li>
+        <li class="footer__list-item"><a href="#aside" class="footer__link">Aside</a></li>
       </ul>
     </footer>
     </div>
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
   </body>
 </html>
