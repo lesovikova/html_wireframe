@@ -6,9 +6,9 @@ const headerLinks = document.querySelectorAll('.header__menu-link, h2, h3, .foot
 const nodesArray = [heading, changeButton, ...headerLinks];
 
 
-let userName = prompt("What is your user name?");
+// let userName = prompt("What is your user name?");
 
-compareName();
+// compareName();
 
 // Changes heading depending on what user puts in a prompt
 function compareName(){
@@ -40,3 +40,13 @@ changeButton.addEventListener("click", (e) => {
     });
     changeButton.style.backgroundColor = `rgb(${getRandomRGB(getRandomNumber)})`;
 });
+
+// BURGER MENU
+const burgerBTN = document.querySelector('.menu-btn');
+const headerMenu = document.querySelector('.header__menu');
+// document.querySelector('.menu-btn').classList.add("active");
+burgerBTN.addEventListener("click", () => {
+    burgerBTN.classList.toggle("active");
+    // headerMenu.classList.toggle('hidden');
+    headerMenu.classList.toggle('open');
+})
