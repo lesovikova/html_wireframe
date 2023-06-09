@@ -20,7 +20,7 @@ if(userName === "Admin") {
 }
 
 // Creates random number from 0 to 255;
-function getRandomNumber() {
+const getRandomNumber = () => {
     return Math.floor(Math.random() * 256);
 }
 
