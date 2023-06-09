@@ -1,15 +1,12 @@
 const heading = document.getElementById("heading");
 const changeButton = document.querySelector('.button__item');
 
-const headerLinks = document.querySelectorAll(".header__menu-link");
-const headers2 = document.querySelectorAll("h2");
-const headers3 = document.querySelectorAll("h3");
-const footerLinks = document.querySelectorAll(".footer__link");
+const headerLinks = document.querySelectorAll('.header__menu-link, h2, h3, .footer__link');
 
-const nodesArray = [heading, changeButton, ...headerLinks, ...headers2, ...headers3, ...footerLinks];
+const nodesArray = [heading, changeButton, ...headerLinks];
 
 
-let userName = prompt("What is your user name");
+let userName = prompt("What is your user name?");
 
 compareName();
 
