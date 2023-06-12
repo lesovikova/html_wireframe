@@ -6,9 +6,9 @@ const headerLinks = document.querySelectorAll('.header__menu-link, h2, h3, .foot
 const nodesArray = [heading, changeButton, ...headerLinks];
 
 
-// let userName = prompt("What is your user name?");
+let userName = prompt("What is your user name?");
 
-// compareName();
+compareName();
 
 // Changes heading depending on what user puts in a prompt
 function compareName(){
