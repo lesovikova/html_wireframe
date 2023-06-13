@@ -44,10 +44,11 @@ changeButton.addEventListener("click", (e) => {
 
 // BURGER MENU
 const burgerBTN = document.querySelector('.burger');
+const burgerContainer = document.querySelector('.menu-btn');
 const headerMenu = document.querySelector('.header__menu');
 // document.querySelector('.menu-btn').classList.add("active");
 burgerBTN.addEventListener("click", () => {
-    burgerBTN.classList.toggle("active");
+    burgerContainer.classList.toggle("active");
     // headerMenu.classList.toggle('hidden');
     headerMenu.classList.toggle('open');
 })
