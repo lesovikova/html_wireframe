@@ -41,8 +41,9 @@ changeButton.addEventListener("click", (e) => {
     changeButton.style.backgroundColor = `rgb(${getRandomRGB(getRandomNumber)})`;
 });
 
+
 // BURGER MENU
-const burgerBTN = document.querySelector('.menu-btn');
+const burgerBTN = document.querySelector('.burger');
 const headerMenu = document.querySelector('.header__menu');
 // document.querySelector('.menu-btn').classList.add("active");
 burgerBTN.addEventListener("click", () => {

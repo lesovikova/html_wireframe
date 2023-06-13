@@ -169,6 +169,11 @@ margin-bottom: 30px;
     margin-bottom: 20px;
 }
 
+.burger {
+    width: 40px;
+    height: 40px;
+}
+
 
 @media all and (min-width: 576px) {
 
@@ -252,7 +257,7 @@ margin-bottom: 30px;
         border: 3px #989898 solid;
         border-radius: 10px;
     }
-
+   
 }
 
 @media all and (min-width: 1200px) {
